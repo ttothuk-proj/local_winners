@@ -1,9 +1,12 @@
 # Local Winners 
-Percentage of league winning players from their own country. Last 5 years aggregated and broken down year-by-year.
+Percentage of highest football league winning players from their own country. Last 5 years aggregated and broken down year-by-year.
 Data acquired from [WorldFootball.net](https://www.worldfootball.net/continents/uefa/) using Python's **Pandas** and **BeautifulSoup** libraries.
 Data cleaned using Python and Tableau. Visualisations done in Tableau Public.
 
-Each European highest football league's winners' squadlist was collected from the last 5 full seasons (excluding Malta, Georgia and Moldova). The data is availabe year-by-year, or aggregated for the full 5 years.
+Every year, the number of international transfers is rapidly increasing. According [FIFA's 2019 Report](https://digitalhub.fifa.com/m/248987d86f2b9955/original/x2wrqjstwjoailnncnod-pdf.pdf), in 2019, clubs around the world completed
+18,042 international transfers. This represents a 9.1% increase from the previous year, and a 50% increase since 2012. With the following graphics I'd like give a better insight, about which league had the most local players and foreigners in a given year's team.
+
+Each European highest football league's winners' squad list was collected from the last 5 full seasons (excluding Malta, Georgia and Moldova). The data is availabe year-by-year, or aggregated for the full 5 years.
 Each player's nationality was recorded and later used to calculate the ratio, to see how diverse each league winning team was.
 
 The two versions are available [here](https://public.tableau.com/app/profile/tibor.toth/viz/LeagueWinnersfromthesamecountry-5years/Sheet2) and [here](https://public.tableau.com/app/profile/tibor.toth/viz/Year-by-yearleague-winningplayersfromthesamecountry/Sheet1).
